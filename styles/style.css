@@ -1,5 +1,116 @@
 /* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
-
+.title-decor {
+  background-color: var(--accent-color);
+}
 .page {
-  /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
+  min-inline-size: 375px;
+  margin: 0;
+  color: var(--text-color, #F1B2CE);
+  font-family: var(--main-font, sans-serif);
+  background-color: var(--bg-color, #000028);
+  background-image: url(../images/cover-image-dark.png);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/* .cover {
+  display: grid;
+  padding: clamp(10px, 0.0286rem + 2.5445vw, 20px);
+  min-block-size: 100vh;
+} */
+
+.header {
+  display: grid;
+
+}
+
+.heading {
+font-family: var(--main-font, sans-serif);
+font-style: bold;
+font-weight: 700;
+line-height: 82.5%;
+text-align: left;
+color: #DB00FF;
+text-shadow: 4px 4px 0px var(--accent-color);
+}
+
+.header__title {
+  margin-block-start: 65px;
+  margin-block-end: 55px;
+  font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+}
+
+.content-section {
+  padding: 0 2.6vi;
+}
+.header__content {
+font-family: var(--main-font, sans-serif);
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 23px;
+color: var(--bg-color);
+}
+
+.header__decor {
+  position: relative;
+  text-align: right;
+  min-height: 26px;
+  height: 100%;
+color: var(--accent-color);
+top: 10px;
+bottom: -10px;
+font-family: var(--main-font);
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 25px;
+text-align:right;
+
+
+}
+.header__decor::after {
+  position: absolute;
+  content: '';
+  inline-size: 9px;
+  block-size: 9px;
+  background-color: var(--accent-color);
+  box-shadow: 0px 0px 4px 2px var(--accent-color);
+  border-radius: 50%;
+  top: 10px;
+}
+.header__theme-menu {
+  display: grid;
+min-height: 98px;
+min-width: 70px;
+ 
+margin-block-start: 49px;
+}
+
+.header__theme-menu-list {
+     display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  /* align-items: center; */
+ height: 100%;
+}
+.header__theme-menu-item {
+  
+  max-height: 26px;
+}
+.header__theme-menu-button {
+width: 44px;
+font-family: var(--main-font);
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 18px;
+text-align: center;
+color: var(--accent-color);
+background-color: inherit;
+border: none;
+padding: 0px 13px 0px 13px;
+
 }
