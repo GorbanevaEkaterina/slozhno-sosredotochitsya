@@ -9,13 +9,19 @@
 @media (prefers-color-scheme: dark) {
   :root.theme_dark {
     --main-font: 'IBM Plex mono';
-    --bg-color: #000028;
-    --text-color: #F1B2CE;
-    --accent-color: #FF0070;
+  --bg-color: #000028;
+  --text-color: #F1B2CE;
+  --accent-color: #FF0070;
+  --text-button: #FF0070;
   }
 }
 
 .page.theme_dark {
+  --main-font: 'IBM Plex mono';
+  --bg-color: #000028;
+  --text-color: #F1B2CE;
+  --accent-color: #FF0070;
+  --text-button: #FF0070;
   color: var(--text-color, #F1B2CE);
   font-family: var(--main-font, sans-serif);
   background-color: var(--bg-color, #000028);
