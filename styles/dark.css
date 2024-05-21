@@ -3,6 +3,7 @@
   --bg-color: #000028;
   --text-color: #F1B2CE;
   --accent-color: #FF0070;
+  --text-button: #FF0070;
 }
 
 @media (prefers-color-scheme: dark) {

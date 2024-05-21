@@ -3,6 +3,7 @@
   --bg-color: #fff1f7;
   --text-color: #353430;
   --accent-color: #FF8DCB;
+  --button-color:#353430;
 }
 
 @media (prefers-color-scheme: light) {
@@ -11,6 +12,7 @@
   --bg-color: #fff1f7;
   --text-color: #353430;
   --accent-color: #FF8DCB;
+  --button-color:#353430;
   }
 }
 
@@ -18,7 +20,8 @@
   --accent-color: #FF8DCB;
   --heading-color: #FFC2E6;
   --decor-visibility: hidden;
-  color: var(--text-color, #353430);
+  --text-color: #353430;
+  --text-button:#353430;
   font-family: var(--main-font, sans-serif);
   background-color: var(--bg-color, #fff1f7);
   background-image: url(../images/cover-image-light.png);
