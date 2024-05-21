@@ -27,7 +27,7 @@
 
 .header {
   display: grid;
-  min-height: 668px;
+  /* min-height: 668px; */
   min-block-size: 100vh;
   
 }
@@ -185,7 +185,7 @@ font-style: normal;
 font-weight: 700;
 font-size: 18px;
 line-height: 23.5px;
-color:var(--accent-color);
+color:var(--content-title-color);
 }
 
 .image-title {
@@ -195,7 +195,7 @@ font-style: normal;
 font-weight: 700;
 font-size: 18px;
 line-height: 23.5px;
-color: var(--bg-color);
+color: var(--head-color);
 background-color: var(--accent-color);
 }
 
@@ -213,7 +213,7 @@ font-style: normal;
 font-weight: 700;
 font-size: 18px;
 line-height: 23.5px;
-color:var(--bg-color);
+color:var(--head-color);
 margin-block-end: 2.8%;
 }
 
@@ -235,7 +235,7 @@ font-style: normal;
 font-weight: 700;
 font-size: 18px;
 line-height: 23.4px;
-color:var(--bg-color);
+color:var(--head-color);
 margin-block-end: 20px;
 }
 
