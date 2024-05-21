@@ -188,8 +188,15 @@ line-height: 23.5px;
 color:var(--accent-color);
 }
 
-.content__title.image-title {
+.image-title {
   margin-block-end: 10px;
+  font-family: 'IBM Plex Mono';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 23.5px;
+color: var(--bg-color);
+background-color: var(--accent-color);
 }
 
 .content__concentrat-list,
@@ -251,7 +258,7 @@ margin-block-end: 20px;
     justify-content: center;
     min-block-size: 100vh;
   min-width: 355px;
-  min-height:668px;
+  /* min-height:668px; */
 }
 .footer__title {
   display: flex;
