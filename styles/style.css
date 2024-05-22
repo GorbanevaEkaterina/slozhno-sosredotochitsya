@@ -13,7 +13,6 @@
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
-  min-block-size: 100vh;
  
 }
 
@@ -85,7 +84,7 @@ margin-block-end: 65px;
   content: "";
   display: inline-block;
   border-radius: 50%;
-  box-shadow: 0 0 2px 2px var(--accent-color, #ff0070);
+  box-shadow: 0 0 5px 3px var(--accent-color, #ff0070);
   background: var(--accent-color, #ff0070);
   inline-size: 9px;
   block-size: 9px;
@@ -159,7 +158,7 @@ border-color: var(--text-button);
 }
 
 .header__theme-menu-button:hover {
-  border-color: #ff007040;
+  border-color:var(--hover-color);
 }
 
 .header__theme-menu-button:focus {
