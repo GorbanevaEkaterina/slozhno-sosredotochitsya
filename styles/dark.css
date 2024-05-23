@@ -16,7 +16,7 @@
   }
 }
 
-.page.theme_dark {
+.page.theme_dark .header {
   --main-font: 'IBM Plex mono';
   --bg-color: #000028;
   --text-color: #F1B2CE;

@@ -23,7 +23,7 @@
   }
 }
 
-.page.theme_light {
+.page.theme_light .header {
   --accent-color: #FF8DCB;
   --heading-color: #FFC2E6;
   --decor-visibility: hidden;
