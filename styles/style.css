@@ -238,7 +238,8 @@
 .footer {
   display: grid;
   place-items: center;
-  min-block-size: 100vh;
+  min-block-size: 668px;
+  block-size: 100vh;
   padding: clamp(10px, 0.0286rem + 2.5445vw, 20px);
 }
 .footer__title {
@@ -356,7 +357,7 @@
   }
   .footer {
     display: grid;
-    min-block-size: 100vh;
+    block-size: 100vh;
   }
   .footer__title {
     padding: 443px 184px;
