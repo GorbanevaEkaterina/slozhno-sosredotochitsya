@@ -19,6 +19,7 @@
   --text-button:#353430;
   --decor-visibility: hidden;
   --hover-color:#35343040;
+  --content-title-color:#353430;
   }
 }
 
@@ -29,6 +30,7 @@
   --text-color: #353430;
   --text-button:#353430;
   --hover-color:#35343040;
+  --content-title-color:#353430;
   font-family: var(--main-font, sans-serif);
   background-color: var(--bg-color, #fff1f7);
   background-image: url(../images/cover-image-light.png);
