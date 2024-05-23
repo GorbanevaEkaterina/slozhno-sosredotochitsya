@@ -4,6 +4,7 @@
 }
 .page {
   min-inline-size: 375px;
+  min-block-size: 100vh;
   margin: 0;
   color: var(--text-color, #f1b2ce);
   font-family: var(--main-font, sans-serif);
