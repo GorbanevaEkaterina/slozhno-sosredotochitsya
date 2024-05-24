@@ -288,8 +288,6 @@ h4.item__title {
 
 @media (width >= 768px) {
   .header {
-    display: grid;
-    grid-template-rows: 1fr min-content 1fr;
     padding-inline-start: 0;
     min-block-size: 1024px;
   }
@@ -364,14 +362,6 @@ h4.item__title {
     max-width: 236px;
   }
 
-  /* .content__attention .item__title {
-    margin-bottom: 10px;
-  } */
-
-  /* .content__focus .item__title {
-    margin-bottom: 10px;
-  } */
-
   .content__focus {
     margin-top: 0;
   }
@@ -401,7 +391,6 @@ h4.item__title {
   }
 
   .header__theme-menu-list {
-    display: flex;
     flex-direction: row;
     justify-self: center;
     gap: 10px;
