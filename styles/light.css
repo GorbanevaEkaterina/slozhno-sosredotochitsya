@@ -7,7 +7,7 @@
   --hover-color: #35343040;
   --content-title-color: #353430;
   --bg-color: #fff1f7;
-  background-image: url(../images/cover-image-light.png);
+  --background-image: url(../images/cover-image-light.png);
 }
 
 :root.theme_light {
@@ -20,6 +20,7 @@
   --head-color: #353430;
   --content-title-color: #353430;
   --hover-color: #35343040;
+  --background-image: url(../images/cover-image-light.png);
 }
 
 @media (prefers-color-scheme: light) {
@@ -32,6 +33,7 @@
     --decor-visibility: hidden;
     --hover-color: #35343040;
     --content-title-color: #353430;
+    --background-image: url(../images/cover-image-light.png);
   }
 
   .page.theme_light {
@@ -43,7 +45,7 @@
     --hover-color: #35343040;
     --content-title-color: #353430;
     --bg-color: #fff1f7;
-    background-image: url(../images/cover-image-light.png);
+    --background-image: url(../images/cover-image-light.png);
   }
   .page.theme_auto {
     --accent-color: #ff8dcb;
@@ -54,6 +56,6 @@
     --hover-color: #35343040;
     --content-title-color: #353430;
     --bg-color: #fff1f7;
-    background-image: url(../images/cover-image-light.png);
+    --background-image: url(../images/cover-image-light.png);
   }
 }

@@ -4,6 +4,7 @@
   --text-color: #f1b2ce;
   --accent-color: #ff0070;
   --text-button: #ff0070;
+  --background-image: url(../images/cover-image-dark.png);
 }
 
 .page.theme_dark {
@@ -12,5 +13,5 @@
   --text-color: #f1b2ce;
   --accent-color: #ff0070;
   --text-button: #ff0070;
-  background-image: url(../images/cover-image-dark.png);
+  --background-image: url(../images/cover-image-dark.png);
 }

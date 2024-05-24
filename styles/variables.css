@@ -10,4 +10,5 @@
   --content-title-color:#FF0070;
   --hover-color:#ff007040;
   --font-size:clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  --background-image: url(../images/cover-image-dark.png);
 }
