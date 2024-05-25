@@ -34,7 +34,7 @@
   line-height: 0.83;
   text-align: left;
   color: var(--heading-color);
-  text-shadow: 4px 4px 0px var(--color-shadow);
+  text-shadow: 4px 4px 0px var(--color-shadow, #ff0070);
 }
 
 .header__title {
@@ -56,13 +56,13 @@
   font-weight: 700;
   font-size: 18px;
   line-height: 23.4px;
-  color: var(--color-header);
+  color: var(--color-header, #000028);
 }
 
 .header__decor {
   position: absolute;
   z-index: -1;
-  visibility: var(--decor-visibility);
+  visibility: var(--decor-visibility, visible);
   display: inline-flex;
   align-items: center;
   gap: 10px;
@@ -138,7 +138,7 @@
   font-size: 18px;
   line-height: 18px;
   text-align: center;
-  color: var(--text-button);
+  color: var(--text-button, #ff0070);
   background-color: inherit;
   border: 1px solid transparent;
   padding: 4px 13px 4px 13px;
@@ -146,13 +146,13 @@
 }
 
 .header__theme-menu-button_active {
-  border-color: var(--text-button);
+  border-color: var(--text-button, #ff0070);
   cursor: default;
   pointer-events: none;
 }
 
 .header__theme-menu-button:hover {
-  border-color: var(--hover-color);
+  border-color: var(--hover-color, #ff007040);
 }
 
 .header__theme-menu-button:focus {
@@ -178,7 +178,7 @@
   font-weight: 700;
   font-size: 18px;
   line-height: 23.4px;
-  color: var(--content-title-color);
+  color: var(--content-title-color, #ff0070);
 }
 
 .image-title {
@@ -188,8 +188,8 @@
   font-weight: 700;
   font-size: 18px;
   line-height: 23.4px;
-  color: var(--head-color);
-  background-color: var(--accent-color);
+  color: var(--head-color, #000028);
+  background-color: var(--accent-color, #ff0070);
 }
 
 .content__concentrat,
@@ -218,7 +218,7 @@
   font-weight: bold;
   font-size: 18px;
   line-height: 23.4px;
-  color: var(--head-color);
+  color: var(--head-color, #000028);
 }
 
 h4.item__title {
@@ -236,12 +236,12 @@ h4.item__title {
 }
 
 .focus__subtitle {
-  font-family: "IBM Plex Mono", monospace;
+  font-family: var(--main-font, monospace);
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
   line-height: 23.4px;
-  color: var(--head-color);
+  color: var(--head-color, #000028);
   margin-block-end: 20px;
 }
 
