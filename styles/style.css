@@ -8,7 +8,10 @@
   color: var(--text-color, #f1b2ce);
   font-family: var(--main-font, monospace);
   background-color: var(--bg-color, #000028);
-  background-image: var(--background-image, url(../images/cover-image-dark.png));
+  background-image: var(
+    --background-image,
+    url(../images/cover-image-dark.png)
+  );
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -36,9 +39,9 @@
 
 .header__title {
   align-self: center;
- margin-block-start: 55px;
+  margin-block-start: 55px;
   margin-block-end: 55px;
-  font-size: var(--font-size,clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem));
+  font-size: var(--font-size, clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem));
 }
 
 .content-section {
@@ -53,7 +56,7 @@
   font-weight: 700;
   font-size: 18px;
   line-height: 23.4px;
-  color: var(--content-title-color);
+  color: var(--color-header);
 }
 
 .header__decor {
@@ -170,7 +173,7 @@
 .content__title {
   min-width: 236px;
   margin-block-end: 20px;
-  font-family:  var(--main-font, monospace);
+  font-family: var(--main-font, monospace);
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
@@ -180,7 +183,7 @@
 
 .image-title {
   margin-block-end: 10px;
-  font-family:  var(--main-font, monospace);
+  font-family: var(--main-font, monospace);
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
@@ -210,7 +213,7 @@
 }
 
 .item__title {
-  font-family:  var(--main-font, monospace);
+  font-family: var(--main-font, monospace);
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
@@ -224,12 +227,12 @@ h4.item__title {
 .content__concentrat-paragraph,
 .content__attention-paragraph,
 .content__focus-paragraph {
-  font-family:  var(--main-font, monospace);
+  font-family: var(--main-font, monospace);
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 23.4px;
-  color: var(--text-color, #F1B2CE);
+  color: var(--text-color, #f1b2ce);
 }
 
 .focus__subtitle {
@@ -265,7 +268,7 @@ h4.item__title {
 
 .footer__title {
   font-weight: 700;
-  font-size: var(--font-size,clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem));
+  font-size: var(--font-size, clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem));
   line-height: 82.5%;
 }
 
@@ -298,7 +301,7 @@ h4.item__title {
   }
 
   .header__title {
-    align-self:center;
+    align-self: center;
     margin-block-start: 162px;
     margin-block-end: 162px;
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
@@ -377,7 +380,6 @@ h4.item__title {
 @media (width >= 1024px) {
   .header {
     min-block-size: 768px;
-   
   }
 
   .content-section {
