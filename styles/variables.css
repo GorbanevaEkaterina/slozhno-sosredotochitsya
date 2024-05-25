@@ -7,8 +7,9 @@
   --decor-visibility: visible;
   --text-button:#FF0070;
   --head-color: #000028;
-  --content-title-color:#FF0070;
+  --content-title-color:#000028;
   --hover-color:#ff007040;
   --font-size:clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   --background-image: url(../images/cover-image-dark.png);
+  --color-shadow: #FF0070;
 }
